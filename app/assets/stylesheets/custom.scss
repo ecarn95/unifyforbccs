@@ -1,0 +1,65 @@
+
+.imagey {
+	display: inline-block !important;
+}
+
+.cbp-filter-item {
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 13px;
+	transition: all 200ms ease-in-out;
+
+	&:hover {
+		color: #72c02c !important;
+		cursor: pointer;
+		transition: all 200ms ease-in-out;
+	}
+}
+
+.cbp-filter-item-active {
+	color: #72c02c !important;
+}
+
+#filters-container {
+	margin-bottom: 30px !important;
+}
+
+.cbp-item {
+	margin-bottom: 20px;
+}
+
+.cbp-caption-activeWrap {
+	opacity: 0;
+	height: 0px;
+	background-color: #242526;
+	position: absolute;
+	left: 0;
+	width: 92.3%;
+	margin-left: 15px;
+	bottom: 0px;
+	transition: all 200ms ease-in-out;
+}
+
+.cbp-item:hover {
+	.cbp-caption-activeWrap {
+		opacity: 1;
+		height: 60px;
+		transition: all 200ms linear;
+	}
+}
+
+.cbp-l-caption-title {
+	color: white;
+	font-size: 17px;
+}
+
+.cbp-l-caption-desc {
+	color: #a1a2a3;
+	font-size: 12px;
+}
+
+.cbp-l-caption-body {
+	padding: 5px;
+	padding-left: 15px;
+}
